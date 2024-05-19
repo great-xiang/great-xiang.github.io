@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"great-xiang.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="大相的个人网站">
+<meta property="og:type" content="website">
+<meta property="og:title" content="大相">
+<meta property="og:url" content="http://great-xiang.github.io/index.html">
+<meta property="og:site_name" content="大相">
+<meta property="og:description" content="大相的个人网站">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="great-xiang">
+<meta property="article:tag" content="飞升学,哲学,AI,人工智能">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://great-xiang.github.io/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>大相</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">大相</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">生命如风</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/home" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://great-xiang.github.io/2024/05/19/%E6%85%B7%E6%85%A8%E6%82%B2%E6%AD%8C-%E5%B0%BC%E9%87%87/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/xiang.png">
+      <meta itemprop="name" content="great-xiang">
+      <meta itemprop="description" content="大相的个人网站">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="大相">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/05/19/%E6%85%B7%E6%85%A8%E6%82%B2%E6%AD%8C-%E5%B0%BC%E9%87%87/" class="post-title-link" itemprop="url">慷慨悲歌-尼采</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2024-05-19 09:45:04" itemprop="dateCreated datePublished" datetime="2024-05-19T09:45:04+08:00">2024-05-19</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://great-xiang.github.io/2024/05/18/%E6%88%91%E5%92%8C%E7%A5%9E%EF%BC%8C%E5%8F%AA%E8%83%BD%E6%B4%BB%E4%B8%80%E4%B8%AA/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/xiang.png">
+      <meta itemprop="name" content="great-xiang">
+      <meta itemprop="description" content="大相的个人网站">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="大相">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/05/18/%E6%88%91%E5%92%8C%E7%A5%9E%EF%BC%8C%E5%8F%AA%E8%83%BD%E6%B4%BB%E4%B8%80%E4%B8%AA/" class="post-title-link" itemprop="url">我和神，只能活一个</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2024-05-18 10:01:53" itemprop="dateCreated datePublished" datetime="2024-05-18T10:01:53+08:00">2024-05-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-05-19 09:39:46" itemprop="dateModified" datetime="2024-05-19T09:39:46+08:00">2024-05-19</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>视频链接:<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1em421H7KZ/">bilibili</a> | <a target="_blank" rel="noopener" href="https://youtu.be/MQeDRqEYJk0">Youtube</a></p>
+<pre><code>    拿鬼神擦屁股，给自己扎小人
+
+    如果这世上真存在鬼神，我肯定活不了几天了。只要我还活着，你就可以认为这世上的鬼神根本不存在，正常人应该做不到比我更渎神了，我都没事，你怕啥。你要是怕鬼，把图片私信我，我拿着擦了屁股。你可以在大门上贴上我的照片，写上几个大字：大相拿你擦屁股，找他去。我不怕死，你要是冒犯了神，尽管算我头上。
+
+    玩笑话说完了，我想说说我的目的，我相信唯物主义，我根本不在乎鬼神，我要做的，是改造人性。这需要我做一个实验，如果这世上存在神，人性是神创造的，那我改造人性，就是找死。如果我还活着，那就说明世上没有神，人性也没有神圣性，人性是可改造的。
+
+    最后，我以后干的事，必然会和目前的道德文化冲突，麻烦事还多着呢。跟这相比，鬼、神，都是垃圾。我和神，只能活一个。
+</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://great-xiang.github.io/2024/05/01/%E5%A4%A9%E4%B9%8B%E7%BD%AA/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/xiang.png">
+      <meta itemprop="name" content="great-xiang">
+      <meta itemprop="description" content="大相的个人网站">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="大相">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/05/01/%E5%A4%A9%E4%B9%8B%E7%BD%AA/" class="post-title-link" itemprop="url">天之罪The sin of nature</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2024-05-01 16:17:17" itemprop="dateCreated datePublished" datetime="2024-05-01T16:17:17+08:00">2024-05-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-05-19 09:39:45" itemprop="dateModified" datetime="2024-05-19T09:39:45+08:00">2024-05-19</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <div style="text-align: center;">
+<img src="images/天之罪.jpg" width="400" align="center">
+</div>
+
+<p>视频链接:<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV18T42197iK/">bilibili</a> | <a target="_blank" rel="noopener" href="https://youtu.be/J5ISOyeOGzM">Youtube</a></p>
+<h1 id="《天之罪》"><a href="#《天之罪》" class="headerlink" title="《天之罪》"></a><center>《天之罪》</center></h1><pre><code>    天之罪，罪在生使万物，争斗厮杀，牢中困兽，生死无休，败者身殒，骸骨为食，生者且存，暂据世界。
+    天生人，人即天，天性即人性，人类之罪，即天之罪。人有所欲，遂生奸邪，肆恶残杀。何至于此？盖万物生存之道，强者存而弱者灭，狡诈生而纯实亡，此乃自然之理，进化之理。天道如此，人道亦然。
+    天道如此，为之奈何？人超脱于物，盖运智识而造物。人之历史，亦即造物之史。历史赓续，智识愈增，创造愈深，终可见，人类摆脱人性桎梏，创立人道之人性。
+    天道演进，遂生人性。天道可造人，人道亦可造人。天可为，人亦可为。
+</code></pre>
+<h1 id="《The-sin-of-nature》"><a href="#《The-sin-of-nature》" class="headerlink" title="《The sin of nature》"></a><center>《The sin of nature》</center></h1><pre><code>    The sin of nature lies in the perpetual strife among creatures, akin to beasts confined in an eternal arena. Those defeated crumble to dust, while the survivors dominate the world.
+    Nature begot humanity; thus, human sins are reflections of nature&#39;s. Human desires breed vice, igniting violence and war. How did we stray? Beings adhere to the principle: the strong prevail over the weak, and deceit prospers while integrity wanes. The law of evolution, in nature, in us.
+    That&#39;s what nature is, but what now? Humans transcend other creatures by harnessing wisdom and creativity. The history of mankind is also the history of creation. As history unfolds, our wisdom and creations deepen. Eventually, mankind will transcend the shackles of humanity, creating a humanistic humanity.
+    Nature&#39;s evolution begets humanity. As nature has the power to create mankind, so too can mankind shape its own essence. Nature can do,humans can too.
+</code></pre>
+<h2 id="下面是对《天之罪》的解释和翻译："><a href="#下面是对《天之罪》的解释和翻译：" class="headerlink" title="下面是对《天之罪》的解释和翻译："></a>下面是对《天之罪》的解释和翻译：</h2><pre><code>    首先，我想说明我的主旨：
+    我认为，随着人类科技文化发展，人类必然会对人类的本质加以改造。以前人类改造世界，都是改造事物，人际关系，等等。比如说，改造生产方式、政治制度等。我说的对人的本质加以改造，比如改造人类的存在形式、思维形式、繁衍方式等等。
+    为什么要改造人类的本质：人类只有对自身本质加以改造，人类才能获得更广阔的自由和幸福。比如性，人类性的目的是为了繁衍，正常的性会让人结婚生子，养育后代，但是极端的性会导致杀戮等恶行，这就违背了性的初衷。就像猴子、企鹅，母性泛滥，会抢别人的孩子，就抢着玩，这也违背了性的初衷。本质上是因为人性是演化出来的，而非设计出来的。
+    我认为：人类对自身本质的改造，这是自然规律发展的结果，代表着自然对自身的改造。人类智能参与的演化，超越了旧的演化方式，意味着自然运行法则的进化。
+</code></pre>
+<h2 id="下面是对《天之罪》文章的注释："><a href="#下面是对《天之罪》文章的注释：" class="headerlink" title="下面是对《天之罪》文章的注释："></a>下面是对《天之罪》文章的注释：</h2><blockquote>
+<ol>
+<li>天之罪，罪在生使万物，争斗厮杀，牢中困兽，生死无休，败者身殒，骸骨为食，生者且存，暂据世界。</li>
+<li>生使万物：创造万物；规定万物的运行方式，是使动用法，我这里将这两个意思合并，称之为“生使”。我是搞人工智能的，文言文水平一般，如果您有更好的表达方式，欢迎在评论区里留言。</li>
+<li>牢中困兽：我想表达的是“角斗场中的困兽”，由于文言文中没有角斗场这个词，故翻译为牢。</li>
+<li>生死无休：自然界中一直会产生胜者和败者，在下一轮竞争中，生者中又会产生新的胜者和败者，无穷无尽。</li>
+<li>生者且存，暂据世界：人们往往对残酷进化历程中的幸存者表达赞美。我认为：生者只不过暂时活着，暂时占据这个世界，在无穷无尽的生存竞争中，都会灭亡。</li>
+<li>人类摆脱人性桎梏，创立人道之人性：人道之人性的对立面是天道之人性，意思是：人造的人性和演化的人性，我认为人造的人性，是符合理性、智慧的人性，是对演化出的荒诞人性的超越。</li>
+</ol>
+</blockquote>
+<hr>
+<h2 id="多余的话："><a href="#多余的话：" class="headerlink" title="多余的话："></a>多余的话：</h2><pre><code>    有的人肯定会说：相某人，太自以为是了，你算老几，有资格谴责上天。
+    确实，我自不量力，我有啥资格啊？我啥资格都没有。
+    我谴责上天，只是一种表达方式，强调感情。真实的逻辑是：我说“人类要对自身人性加以改造”，肯定有人对我指指点点，我呢，反客为主，我不认为我有错，相反我认为上天有罪，强调自己的合理性。这是我的目的，我的想法。至于谴责上天，只是一种手段，不是目的。
+    还有，我谴责上天，也是一种宣言，我认为人类应该改造人性，比如说：消除子女私有制、意识私有制、物质私有制，必然与人类现有的道德、文化冲突，以后棘手的事还多着呢。
+</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="great-xiang"
+      src="/images/xiang.png">
+  <p class="site-author-name" itemprop="name">great-xiang</p>
+  <div class="site-description" itemprop="description">大相的个人网站</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/great-xiang" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;great-xiang" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.zhihu.com/people/xiang-shi-hao-81" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;xiang-shi-hao-81" rel="noopener" target="_blank"><i class="fa fa-zhihu fa-fw"></i>知乎</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/3546609627433654/" title="Bili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;3546609627433654&#x2F;" rel="noopener" target="_blank"><i class="fa fa-bilibili fa-fw"></i>Bili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.youtube.com/channel/UCYBJZU6Q7XNq3Nmb6qwxD7g" title="YouTube → https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCYBJZU6Q7XNq3Nmb6qwxD7g" rel="noopener" target="_blank"><i class="fa fa-youtube fa-fw"></i>YouTube</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">great-xiang</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+</body>
+</html>
